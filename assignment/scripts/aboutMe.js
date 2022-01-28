@@ -11,7 +11,7 @@ let fullName = firstName  + lastName;
 // 4 - Console log the value of `fullName`
 console.log (fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = '11 '
+let luckyNumber = '11'
 // 6 - Console log this sentence, adding in the variables you created above:
 
 let sentence = 'My name is ' + fullName + ', and I think ' + luckyNumber + 'is a winner!'
@@ -92,4 +92,20 @@ if (mostPets >= pets || mostPets >= friendsPets){
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+switch (luckyNumber) {
+  case '1':
+    console.log('First is the worst');
+    break;
+  case '2':
+    console.log('Second is the best');
+    break;
+  case '3':
+    console.log('Third is the one with the polka dot dress');
+    break;
+  default:
+    console.log('Luck is what happens when preparation meets opportunity')
+}
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+adventurous ? console.log('Adventures are great!') : console.log('How about we stay home?')
