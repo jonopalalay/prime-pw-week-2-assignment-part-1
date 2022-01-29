@@ -82,8 +82,10 @@ if (pets >= mostPets && friendsPets <= mostPets){
   mostPets = mostPets +2
 }
 if (mostPets >= pets || mostPets >= friendsPets){
-    console.log ('mostPets')
+    console.log ('mostPets'
   }
+
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
