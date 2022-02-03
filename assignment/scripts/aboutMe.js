@@ -11,7 +11,7 @@ let fullName = firstName  + lastName;
 // 4 - Console log the value of `fullName`
 console.log (fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = '11'
+let luckyNumber = 11;
 // 6 - Console log this sentence, adding in the variables you created above:
 
 let sentence = 'My name is ' + fullName + ', and I think ' + luckyNumber + 'is a winner!'
@@ -77,13 +77,12 @@ if (pets < allowedPets){
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
-let mostPets = 8;
-if (pets >= mostPets && friendsPets <= mostPets){
-  mostPets = mostPets +2
+let mostPets;
+if (pets > friendsPets){
+  mostPets = 10
+};
+if (mostPets > pets){console.log ('mostPets')
 }
-if (mostPets >= pets || mostPets >= friendsPets){
-    console.log ('mostPets'
-  }
 
 
 
@@ -95,13 +94,13 @@ if (mostPets >= pets || mostPets >= friendsPets){
 //      You'll need to research how to use switch statements!
 
 switch (luckyNumber) {
-  case '1':
+  case 1:
     console.log('First is the worst');
     break;
-  case '2':
+  case 2:
     console.log('Second is the best');
     break;
-  case '3':
+  case 3:
     console.log('Third is the one with the polka dot dress');
     break;
   default:
