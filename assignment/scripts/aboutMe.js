@@ -79,10 +79,13 @@ if (pets < allowedPets){
 
 let mostPets;
 if (pets > friendsPets){
-  mostPets = 10
-};
-if (mostPets > pets){console.log ('mostPets')
+  mostPets = pets
 }
+  else if (friendsPets > pets)
+  mostPets = friendsPets
+
+console.log (mostPets)
+
 
 
 
