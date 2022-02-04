@@ -81,10 +81,10 @@ let mostPets;
 if (pets > friendsPets){
   mostPets = pets
 }
-  else if (friendsPets > pets)
+  else if (friendsPets > pets){
   mostPets = friendsPets
-
-console.log (mostPets)
+}
+console.log (mostPets);
 
 
 
